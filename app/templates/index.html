@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <h1>Willkommen auf unserer Website &uuml;ber Lithium Ionen/Polymer Akkus!</h1>
+    <h2>Kurz&uuml;bersicht</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Kriterium</th>
+                <th scope="col">Lithium Ionen Akkus</th>
+                <th scope="col">Lithium Polymer Akkus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Nachhaltigkeit</th>
+                <td>
+                    <p>+ H&ouml;here Lebensdauer</p>
+                    <p>- Stoffe sind h&ouml;chst giftig</p>
+                    <p>+ Recyclebar</p>
+                    <!-- <p>- 150-200 kg CO2</p> -->
+                </td>
+                <td>
+                    <p>- niedriger Lebensdauer</p>
+                    <p>- Stoffe sind h&ouml;chst giftig</p>
+                    <p>+ Recyclebar</p>
+                    <p></p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Sicherheit</th>
+                <td>
+                    <p>- Entz&uuml;ndlich/Explosiv bei &Uuml;berladung</p>
+                    <p>- Stoffe k&ouml;nnen auslaufen</p>
+                </td>
+                <td>
+                    <p>- Entz&uuml;ndlich bei &Uuml;berladung</p>
+                    <p>+ Aufgrund des Aggregatzustands geringere Auslaufgefahr</p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Vorraussetzungen</th>
+                <td>
+                    <p>+ g&uuml;nstiger</p>
+                    <p>- ben&ouml;tigt ein Geh&auml;use.</p>
+                    <p>+ 0°C - 45°C, spezielle k&ouml;nnen bis zu -54°C erreichen</p>
+
+                </td>
+                <td>
+                    <p>+ keine spezielle Form (100 &micro;m) </p>
+                    <p>+ kein Geh&auml;use</p>
+                    <p>- mind. 60°C</p>
+                </td>
+            </tr>
+            <tr><td></td>
+                <td><a href="/ion">mehr</a></td>
+                <td><a href="/polymer">mehr</a></td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}

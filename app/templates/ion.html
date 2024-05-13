@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block head %}
+	<style>
+    #img-structure {
+        height: 40vh;
+        aspect-ratio: initial;
+        float: right;
+    }
+    </style>
+{% endblock %}
+{% block body %}
+	<h1>Lithium Ionen Akkus</h1>
+    <p>
+    "Lithium-Ionen-Akku" ist ein Sammelbegriff für Akkumulatoren auf der Basis von Lithium-Verbindungen.
+    Dabei k&ouml;nnen verschiedenste andere Elemente zusammen mit dem Lithium verwendet werden, h&auml;ufig sind aber Lithium-Nickel-Mangan-Cobalt-Oxiden basierte Akkus.
+    </p>
+    <p>
+    Sie haben meist eine h&ouml;here spezifische Energie als andere Akkumulatoren und sind deshalb weit verbreitet.
+    Vor allem in Ger&auml;ten, in denen Akkulaufzeit eine Rolle spielt, wie z.B. E-Autos und Handys, sind sie beliebt aufgrund dieser h&ouml;heren Energiedichte.
+    Anfangs wurden sie zwar vor allem in tragbaren Ger&auml;ten verwendet, da andere Akkumulatoren meist zu schwer sind, heute aber werden sie fast &uuml;berall verwendet.
+    </p>
+
+    <h2>Aufbau</h2>
+    <img id="img-structure" src="https://www.forschungsinformationssystem.de/servlet/is/506095/Aufbau_Lithium-Ionen-Batteriezelle_v02.png" alt="Aufbau eines Lithium-ionen Akkus">
+    <p>
+    Der Aufbau eines Lithium-Ionen-Akkus gleicht grob dem einer galvanischen Zelle.
+    Hierbei wird f&uuml;r die Anode Lithiummetalloxide genutzt, wie z.B. Lithium-Cobalt-Oxid (LiCoO<sub>2</sub>).
+    F&uuml;r die Kathode wird h&auml;ufig Grafit genommen und als Elektrolyt kommt in vielen F&auml;llen Lithium-Hexafluor-Phosphat (LiPF<sub>6</sub>) zum Einsatz.
+    </p>
+    <p>
+    W&auml;hrend des Aufladens wandern die positiven Lithiumionen (Li<sup>+</sup>) zur Kathode und werden im Grafit gespeichert.
+    Bei der Entladung kehren sie dann wieder zur&uuml;ck und erzeugen durch diese Bewegung zur Anode Energie.
+    </p>
+{% endblock %}
